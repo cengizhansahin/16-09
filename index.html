@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Denemeler</title>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,443 +18,174 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
   </head>
   <body>
-    <!--Navbar Başlangıç-->
-    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Bright 502</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Anasayfa</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#products">Ürünler</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Hakkımızda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">İletişim</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                >Sepet
-                <span
-                  class="position-absolute top-75 start-75 translate-middle badge rounded-pill bg-danger"
-                >
-                  5
-                  <span class="visually-hidden">unread messages</span>
-                </span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div
-      class="alert alert-info text-center w-50 mx-auto"
-      role="alert"
-      style="margin-top: 90px"
-    >
-      13:30 itibariyle sepetteki ürünlerde dev kampanya
+    <!-- NAVBAR BAŞLANGIÇ -->
+    <div class="navbar fixed-top opacity-75">
+      <ul>
+        <li>
+          <a href=""
+            ><i class="fa-brands fa-apple" style="color: #ffffff"></i
+          ></a>
+        </li>
+        <li><a href="">Store</a></li>
+        <li><a href="">Mac</a></li>
+        <li><a href="">Ipad</a></li>
+        <li><a href="">Iphone</a></li>
+        <li><a href="">Watch</a></li>
+        <li><a href="">AirPods</a></li>
+        <li><a href="">TV ve Ev</a></li>
+        <li><a href="">Eğlence</a></li>
+        <li><a href="">Aksesuarlar</a></li>
+        <li><a href="">Destek</a></li>
+        <li>
+          <a href=""
+            ><i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i
+          ></a>
+        </li>
+        <li>
+          <a href=""
+            ><i class="fa-solid fa-bag-shopping" style="color: #ffffff"></i
+          ></a>
+        </li>
+      </ul>
     </div>
-    <!--Slider Başlangıcı-->
-    <div
-      id="carouselExampleAutoplaying"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2545.jpg?w=2000"
-            class="d-block w-100"
-            alt="..."
-          />
+    <!-- NAVBAR BİTİŞ -->
+
+    <!-- HEADER BAŞLANGIÇ -->
+    <div class="header3">
+      <div class="header3-text text-center">
+        <h1 style="color: white">iPhone 15 Pro</h1>
+        <h3 style="color: white">Titanyum. Çok güçlü. Çok hafif. Çok Pro.</h3>
+        <h4 style="color: grey">Sipariş tarihi: 22 Eylül</h4>
+        <h4 style="color: grey">Satış tarihi: 29 Eylül</h4>
+        <div class="header-last justify-content-center">
+          <a href=""><h4>Daha fazla bilgi ></h4></a>
+          <a href=""><h4>Fiyatları Görüntüleyin ></h4></a>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
-    <!--Hakkımızda-->
-    <div id="about" class="row about">
-      <div class="col-sm-12 col-md-6 left">
-        <h1 class="text-center text-danger mt-3" style="margin-bottom: 50px">
-          CEO
-        </h1>
-
-        <img
-          src="https://getweeklyupdate.com/blog/wp-content/uploads/2018/02/27.jpg"
-          alt=""
-        />
-      </div>
-      <div class="col-sm-12 col-md-6 right">
-        <h1 class="text-center text-danger mt-3" style="margin-bottom: 50px">
-          CREW
-        </h1>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card" style="width: auto">
-              <img
-                src="https://picsum.photos/1200"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: auto">
-              <img
-                src="https://picsum.photos/1200"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: auto">
-              <img
-                src="https://picsum.photos/1200"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card" style="width: auto">
-              <img
-                src="https://picsum.photos/1200"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: auto">
-              <img
-                src="https://picsum.photos/1200"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: auto">
-              <img
-                src="https://picsum.photos/1200"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
+    <div class="header2">
+      <div class="header2-text text-center">
+        <h1 style="color: black">iPhone 15</h1>
+        <h3 style="color: black">Yeni tasarım. Yeni kamera. Bambaşka.</h3>
+        <h4 style="color: grey">Sipariş tarihi: 22 Eylül</h4>
+        <h4 style="color: grey">Satış tarihi: 29 Eylül</h4>
+        <div class="header-last">
+          <a href=""><h4>Daha fazla bilgi ></h4></a>
+          <a href=""><h4>Fiyatları Görüntüleyin ></h4></a>
         </div>
       </div>
     </div>
 
-    <div id="products" class="products">
-      <h1 class="text-center display-3 mb-5">ÜRÜNLER</h1>
-      <div
-        id="carouselExampleControls"
-        class="carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div
-              class="card-wrapper container-sm d-flex justify-content-around"
-            >
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://marketplace.canva.com/EAFVCFkAg3w/1/0/1131w/canva-red-and-black-horror-movie-poster-AOBSIAmLWOs.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://img.freepik.com/free-vector/professional-suspense-movie-poster_742173-3470.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/action-movie-poster-template-design-0f5fff6262fdefb855e3a9a3f0fdd361_screen.jpg?ts=1636996054"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="card-wrapper container-sm d-flex justify-content-around"
-            >
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://marketplace.canva.com/EAFH3gODxw4/1/0/1131w/canva-black-%26-white-modern-mystery-forest-movie-poster-rLty9dwhGG4.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/11/IMG_5878-scaled.jpeg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://marketplace.canva.com/EAFTl0ixW_k/1/0/1131w/canva-black-white-minimal-alone-movie-poster-YZ-0GJ13Nc8.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="card-wrapper container-sm d-flex justify-content-around"
-            >
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://e1.pxfuel.com/desktop-wallpaper/868/40/desktop-wallpaper-morbius-hollywood-2022-movies-poster-thumbnail.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://cdn.seat42f.com/wp-content/uploads/2020/07/15192015/Project-Power-Movie-Poster-Jamie-Foxx.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://i.guim.co.uk/img/media/7f9f5866aa535d95cd69e8f931f6f21b25c5227e/0_0_2025_3000/master/2025.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=5a3cc00304068a9a45d7cf014e1db54d"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+    <div class="header">
+      <div class="header-text text-center">
+        <img src="./img/row-img/watch-series9.png" alt="" />
+        <h3 style="color: white">Daha güçlü. Daha etkili. Daha parlak.</h3>
+        <h4 style="color: grey">Sipariş tarihi: 22 Eylül</h4>
+        <h4 style="color: grey">Satış tarihi: 29 Eylül</h4>
+        <div class="header-last">
+          <a href=""><h4>Daha fazla bilgi ></h4></a>
+          <a href=""><h4>Fiyatları Görüntüleyin ></h4></a>
         </div>
       </div>
     </div>
+    <!-- HEADER bitiş -->
 
-    <div id="contact" class="contact mt-5">
-      <h1 class="text-center display-3 mb-4">İLETİŞİM</h1>
-      <div class="row">
-        <div class="col-md-6 harita">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.1382993896577!2d29.004241475251458!3d41.04410461721932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7a24975fe5d%3A0xa05d7aa13cfcaf89!2sBah%C3%A7e%C5%9Fehir%20%C3%9Cniversitesi%20Wissen%20Akademie!5e0!3m2!1str!2str!4v1694852909763!5m2!1str!2str"
-            width="100%"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+    <!-- MAİN BAŞLANGIÇ -->
+    <div class="row">
+      <div class="col-6 l1">
+        <div class="header-text text-center">
+          <h1 style="color: black">
+            <a href=""><img src="./img/row-img/watch-ultra2.png" alt="" /></a>
+          </h1>
+          <h5 style="color: black">Macerada yeni bir seviye.</h5>
+          <p>Sipariş tarihi: 22 Eylül</p>
+          <p>Satış tarihi: 29 Eylül</p>
+          <div class="header-last">
+            <a href=""><h4>Daha fazla bilgi ></h4></a>
+            <a href=""><h4>Fiyatları Görüntüleyin ></h4></a>
+          </div>
         </div>
-        <div class="col-md-6 iletisim">
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4" />
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4" />
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress"
-                placeholder="1234 Main St"
-              />
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress2"
-                placeholder="Apartment, studio, or floor"
-              />
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity" />
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip" />
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="gridCheck"
-                />
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
-          </form>
+      </div>
+      <div class="col-6 l2">
+        <div class="header-text text-center">
+          <h1 style="color: black">
+            <a href=""><img src="./img/row-img/carbon-neutral.png" alt="" /></a>
+          </h1>
+          <h5>
+            Apple&nbsp;Watch için bir&nbsp;ilk.<br />Apple&nbsp;için&nbsp;de.
+          </h5>
+          <div class="header-last">
+            <a href=""><h4>Daha fazla bilgi ></h4></a>
+            <a href=""><h4>Filmi İzleyin ></h4></a>
+          </div>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-6 l3">
+        <div class="header-text text-center">
+          <h1 style="color: black">
+            <a href=""><img src="./img/row-img/watch-se.png" alt="" /></a>
+          </h1>
+          <h5 style="color: black">
+            Seveceğiniz her şey onda.<br />Çok seveceğiniz bir fiyata.
+          </h5>
+          <p>Sipariş tarihi: 22 Eylül</p>
+          <p>Satış tarihi: 29 Eylül</p>
+          <div class="header-last">
+            <a href=""><h4>Daha fazla bilgi ></h4></a>
+            <a href=""><h4>Sipariş Verin ></h4></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 l4">
+        <div class="header-text text-center">
+          <h3>
+            Eğitime özel fiyatlarla Mac veya<br />iPad satın alın, tasarruf
+            edin.
+          </h3>
+          <h5>
+            Üstelik, Mac satın alarak AirPods;<br />iPad satın alarak Apple
+            Pencil sahibi olun.
+          </h5>
+
+          <div class="header-last">
+            <a href=""><h4>Daha fazla bilgi ></h4></a>
+            <a href=""><h4>Sipariş Verin ></h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 l5">
+        <div class="header-text text-center">
+          <h1>15 inç MacBook Air</h1>
+          <h5>Büyük yenilikler. İncelikle işlendiler.</h5>
+
+          <div class="header-last">
+            <a href=""><h4>Daha fazla bilgi ></h4></a>
+            <a href=""><h4>Satın alın ></h4></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 l6">
+        <div class="header-text text-center">
+          <h1 style="color: white">iPad Pro</h1>
+          <h5 style="color: white">
+            Şimdi süper güçlü M2 çip ile.
+            <img src="./img/row-img/m2-cip.png" alt="" />
+          </h5>
+
+          <div class="header-last">
+            <a href=""><h4>Daha fazla bilgi ></h4></a>
+            <a href=""><h4>Satın alın ></h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MAİN BİTİŞ -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
