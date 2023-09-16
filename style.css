@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 70px;
+}
+.bg-warning {
+  background-color: #5a40af !important;
+}
+
+.nav-link {
+  color: #ec53b0 !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #45ffca !important;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar-brand {
+  color: #45ffca;
+}
+
+.carousel img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.about {
+  height: 650px;
+}
+
+.about img {
+  width: 100%;
+}
+
+.left img {
+  height: 700px;
+  padding-top: 50px;
+}
+
+.about .right .row {
+  margin: 49px 0;
+}
+
+.products {
+  padding-top: 250px;
+}
+
+.products .card-img-top {
+  width: 100%;
+  height: 400px;
+}
+
+.harita {
+  padding: 5px;
+}
+
+.iletisim {
+  box-shadow: -8px 0px 18px -11px rgba(0, 0, 0, 0.75);
+}
+
+.navbar span .translate-middle {
+  transform: translate(0%, -40%) !important;
+}
